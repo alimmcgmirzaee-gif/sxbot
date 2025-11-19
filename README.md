@@ -68,7 +68,7 @@ chmod +x deploy.sh
 部署脚本会引导你完成以下配置：
 
 1. **Telegram Bot Token**：从 [@BotFather](https://t.me/BotFather) 获取
-2. **管理员 Telegram ID**：你的 Telegram 用户 ID（可通过 [@userinfobot](https://t.me/QueryTokenBot) 获取）
+2. **管理员 Telegram ID**：你的 Telegram 用户 ID（可通过 [@QueryTokenBot](https://t.me/QueryTokenBot) 获取）
 3. **Turnstile Site Key & Secret**：
    - 访问 [Cloudflare Turnstile](https://dash.cloudflare.com/?to=/:account/turnstile)
    - 点击 "Add Site" 创建站点
