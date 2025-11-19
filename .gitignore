@@ -1,0 +1,30 @@
+# 部署临时文件
+deploy_output.tmp
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+frontend/.next/
+frontend/out/
+workers/dist/
+
+# Environment files
+frontend/.env.local
+frontend/.env.production
+.env
+.env.local
+
+# Wrangler
+.wrangler/
+**/.wrangler/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,15 @@
+name = "sxbot-bot"
+main = "src/index.ts"
+compatibility_date = "2025-11-19"
+
+[vars]
+# Mini App URL（Next.js 前端部署后的地址 - 固定使用生产域名）
+MINIAPP_URL = "https://12079-sx-app.pages.dev"
+# 管理员 ID，逗号分隔
+ADMIN_IDS = "6264268800"
+
+# KV Namespace 绑定，创建 KV 后替换 id
+[[kv_namespaces]]
+binding = "KV"
+id = "x"
+
