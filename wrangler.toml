@@ -1,0 +1,6 @@
+name = "sxbot"
+main = "src/index.js"
+compatibility_date = "2027-01-01"
+
+[vars]
+# توکن را اینجا نگذار، در Environment Variables کلودفلر تنظیم کن
